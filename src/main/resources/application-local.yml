@@ -10,6 +10,11 @@ spring:
       password: rot@123
       authentication-database: admin
       auto-index-creation: true
+springfox:
+  documentation:
+    swagger-ui:
+      base-url: /swagger
 
-  application:
-    name: foodieRoad
+logging:
+  level:
+    springfox.documentation: debug
