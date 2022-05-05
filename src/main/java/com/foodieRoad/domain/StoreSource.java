@@ -22,8 +22,10 @@ public class StoreSource {
 
     @Id
     private Long id;
+
     @Field(name = "개방자치단체코드")
     private String OPNSFTEAMCODE;
+
     @Field(name = "관리번호")
     private String MGTNO;
 
