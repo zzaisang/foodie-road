@@ -17,7 +17,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-@Document(collection = "store_source")
+@Document(collection = "store")
 public class StoreSource {
 
     @Id
